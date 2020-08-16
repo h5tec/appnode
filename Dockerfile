@@ -21,7 +21,7 @@ RUN          apt-get update && apt-get install -y && \
              google-cloud-translate \
              requests \
              ipaddress \
-             pymongo
+             pymongo \
              python-binance \
              shrimpy-python \
              pandas \
