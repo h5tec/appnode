@@ -29,7 +29,8 @@ RUN          apt-get update && apt-get install -y && \
              unicorn-binance-websocket-api \
              unicorn-fy \
              yaspin \
-             pyti
+             pyti \
+             qrcode
              
 WORKDIR      /usr/src/app
 
