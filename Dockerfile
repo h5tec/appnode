@@ -2,8 +2,8 @@ FROM         python:buster
 
 RUN          apt-get update && apt-get install -y && \
              mkdir /usr/src/app && \
-             easy_install six \
              pip install pip --upgrade && \
+             pip install --no-cache-dir six && \
              pip install --no-cache-dir \
              tornado \
              motor \
