@@ -15,6 +15,7 @@ RUN          apt-get update && apt-get install -y && \
              pywallet \
              blowfish \
              web3 \
+             six \
              google-api-python-client \
              google-auth-httplib2 \
              google-auth-oauthlib \
