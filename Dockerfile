@@ -24,7 +24,10 @@ RUN          apt-get update && apt-get install -y && \
              pymongo \
              python-binance \
              shrimpy-python \
+             numphy \
              pandas \
+             pandas-ta \
+             pandas-ga \
              plotly \
              unicorn-binance-websocket-api \
              unicorn-fy \
