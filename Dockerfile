@@ -3,7 +3,7 @@ FROM         python:buster
 RUN          apt-get update && apt-get install -y && \
              mkdir /usr/src/app && \
              pip install pip --upgrade && \
-             pip install --no-cache-dir six && \
+             pip install --no-cache-dir six wrapt && \
              pip install --no-cache-dir \
              tornado \
              motor \
