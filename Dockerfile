@@ -7,7 +7,7 @@ RUN          apt-get update && apt-get upgrade -y && \
              pip install --no-cache-dir google-api-python-client google-auth-httplib2 google-auth-oauthlib google-cloud-translate sqlor && \
              pip install --no-cache-dir python-binance tradingview_ta python-telegram stockstats psutil pandas wrapt && \
              pip install --no-cache-dir shrimpy-python unicorn-binance-websocket-api unicorn-fy yaspin pyti scipy && \
-             pip install --no-cache-dir numphy plotly pandas-ta pandas-ga blowfish cryptography web3 pywallet htmldom
+             pip install --no-cache-dir numphy plotly pandas-ta pandas-ga blowfish cryptography web3 pywallet
              
 WORKDIR      /usr/src/app
 
